@@ -7,12 +7,20 @@ const Process = () => {
         <span className="bg-primary px-2">Our Working Process</span>
       </h2>
 
-      <div className="space-y-4">
-        <div className="p-6 border rounded-xl">
+      <div className="row space-y-4 md:space-y-0 md:grid md:grid-cols-7 gap-4">
+        <div className=" p-3 border rounded-xl">
           <h3 className="text-xl font-semibold">01 Consultation</h3>
           <p>We discuss your goals, audience, and strategy.</p>
         </div>
-        <div className="p-6 border rounded-xl">
+        <div className="p-3 border rounded-xl">
+          <h3 className="text-xl font-semibold">02 Research and Strategy Development</h3>
+          <p>We analyze and create tailored marketing strategies.</p>
+        </div>
+        <div className="p-3 border rounded-xl">
+          <h3 className="text-xl font-semibold">02 Research and Strategy Development</h3>
+          <p>We analyze and create tailored marketing strategies.</p>
+        </div>
+        <div className="p-3 border rounded-xl">
           <h3 className="text-xl font-semibold">02 Research and Strategy Development</h3>
           <p>We analyze and create tailored marketing strategies.</p>
         </div>
